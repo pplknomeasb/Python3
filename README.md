@@ -6,3 +6,7 @@ Upload one.  Learned how to use Python's IDE.  If one isn't capable of using the
 Upload userInput.  The reason behind a program is to execute commands in order to give the end user a specific set of results.  The userInput program displays a command to the user to input a specif string.  The string set that the user inputs is stored in a variable named user_says.  Once the operation is executed, the variable user_says is called once more using the print operation and the string data is printed on the command line.
 
 Upload variableDeclarations.  Declaring variables types in Python is done behind the scenes of Python.  my_var = 10; my_var becomes an integar type.  my_var = "hello"; my_var becomes a string type.  my_var = True; my_var becomes a boolean type.  a = b = c = 10; a, b, and c are all integar variables with a value of 10.  a, b, c = 1, 2, 3; a = 1 b = 2 c = 3.  The value's declared to the variables are stored within the program and will have a value reference to ensure speed.
+
+#strings, numbers, booleans, lists, sets frozensets, tuples, ranges, dictionaries, none are built in datatypes
+#mutability = can be modified after creation
+#immutability = cannot be modified after creation
