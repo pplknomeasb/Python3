@@ -20,3 +20,6 @@ Lists are capable of holding all datatypes and is mutable.  Lists are a way to o
 
 
 Sets.  Sets are an unordered collection of unique elements.  No elemenets in a set can duplicate.  If it is instantiated to have multiple data sets that are similar, it'll remove all elements that are not unique.  You are able to see if there is specific data by using the in and not in methods to have a boolean result returned.  Sets are mutable; .add, .remove, .pop can all be used with sets.  FrozenSets are immutable so there is no ability to add too, remove from, or altering the data within the set.  The methods that you can use with frozen sets are .intersection, .difference, .union, .pop, and .clear.
+
+
+Tuples are immutable organized lists that can contain duplicate data; however data cannot be added, removed, or changed within tuples.  A Tuple can contain as little as one data piece, but during delcaration a comma must be placed after the first data piece or the data will not be declared as a tuple.  The same indexing and slicing rules apply as for strings and lists.  Numbers in general should not be placed within quotes unless a particular type of edit will be required in order for Python to recognize integars and floats as they are.  
