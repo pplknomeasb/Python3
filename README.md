@@ -23,3 +23,6 @@ Sets.  Sets are an unordered collection of unique elements.  No elemenets in a s
 
 
 Tuples are immutable organized lists that can contain duplicate data; however data cannot be added, removed, or changed within tuples.  A Tuple can contain as little as one data piece, but during delcaration a comma must be placed after the first data piece or the data will not be declared as a tuple.  The same indexing and slicing rules apply as for strings and lists.  Numbers in general should not be placed within quotes unless a particular type of edit will be required in order for Python to recognize integars and floats as they are.  
+
+
+Ranges are instantiated like lists, however, the same rules do not apply.  Ranges cannot be sliced.  A range can be converted to a list in order for it to be sliced.
