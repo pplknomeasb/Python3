@@ -10,3 +10,7 @@ Upload variableDeclarations.  Declaring variables types in Python is done behind
 #strings, numbers, booleans, lists, sets frozensets, tuples, ranges, dictionaries, none are built in datatypes
 #mutability = can be modified after creation
 #immutability = cannot be modified after creation
+
+
+Chapter Strings
+Formatting the output is crucial for communicating the information that is wanted by the end user.  The output that is generated can at times include information that isn't necessary to display everything, we have to utilize the mothods and operators in order display only what is appropriate to the user.  In the chapter of strings, we learned indexing rules, formatting upper and lowercase strings, deliminaters, strip, replace, split, join, and splicing.
