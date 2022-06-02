@@ -26,3 +26,8 @@ Tuples are immutable organized lists that can contain duplicate data; however da
 
 
 Ranges are instantiated like lists, however, the same rules do not apply.  Ranges cannot be sliced.  A range can be converted to a list in order for it to be sliced.
+
+
+Dictionaries.  Dictionaries are an unordered set of key-value pairs.  They will be displayed in the output line in the order that the contents are intitiated within the dictionary.  dict1 = {} creates an empty dictionary.  dict1 = {"One": "1", ""Two": "2"} creates a dictionary with two key-value pairs.  Dictionaries are mutable i.e. contents can be added, removed, and altered after the ditionaries initialization.  Dictionaries have 3 methods.  dict.keys() which returns all the keys in the dictionary, dict.values() which returns all of the values within the dictionary, and dict.items() which returns all of the keys and values as a tuple.  
+
+Conversions between data types.  str() converts to a string.  int() converts to integer.  float() converts to float.  list() converts to a list.  tuple() converts to tuple.  set() converts to set.  bin() converts to binary representation.  hex() converts to a hexadecimal representation.  int(variable, 2) converts binary back to decimal.  int(variable, 16) converts from hexadecimal back to decimal.
